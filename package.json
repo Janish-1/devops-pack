@@ -1,0 +1,34 @@
+{
+  "name": "devops-pack",
+  "displayName": "Devops Pack",
+  "description": "Devops Development Kit",
+  "version": "0.0.1",
+  "publisher": "JanishPancholi",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [  
+    "eamodio.gitlens",
+    "donjayamanne.githistory",
+    "mhutchie.git-graph",
+    "codezombiech.gitignore",
+    "dbaeumer.vscode-eslint",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "formulahendry.code-runner",
+    "ritwickdey.LiveServer",
+    "yzhang.markdown-all-in-one",
+    "ms-azuretools.vscode-docker",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode-remote.remote-containers",
+    "hashicorp.terraform",
+    "redhat.ansible",
+    "ms-vscode-remote.remote-ssh-edit",
+    "eamodio.tsl-proxy",
+    "gruntfuggly.todo-tree"
+  ]
+}
