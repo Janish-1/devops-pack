@@ -2,7 +2,7 @@
   "name": "devops-pack",
   "displayName": "Devops Pack",
   "description": "Devops Development Kit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "JanishPancholi",
   "engines": {
     "vscode": "^1.97.0"
