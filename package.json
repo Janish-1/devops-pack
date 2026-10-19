@@ -1,34 +1,63 @@
 {
   "name": "devops-pack",
   "displayName": "Devops Pack",
-  "description": "Devops Development Kit",
-  "version": "0.0.3",
+  "description": "AI-free DevOps kit: Git, containers, Kubernetes, Terraform, Ansible, CI/CD, cloud tooling and shell scripting.",
+  "version": "0.1.0",
   "publisher": "JanishPancholi",
+  "license": "MIT",
   "engines": {
-    "vscode": "^1.97.0"
+    "vscode": "^1.100.0"
   },
   "categories": [
     "Extension Packs"
   ],
-  "extensionPack": [  
+  "keywords": [
+    "devops",
+    "extension pack",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "ansible",
+    "ci/cd"
+  ],
+  "extensionPack": [
     "eamodio.gitlens",
-    "donjayamanne.githistory",
     "mhutchie.git-graph",
     "codezombiech.gitignore",
-    "dbaeumer.vscode-eslint",
-    "VisualStudioExptTeam.vscodeintellicode",
-    "formulahendry.code-runner",
-    "ritwickdey.LiveServer",
+
+    "editorconfig.editorconfig",
+    "usernamehw.errorlens",
+    "gruntfuggly.todo-tree",
+    "humao.rest-client",
+    "emilast.logfilehighlighter",
+    "redhat.vscode-yaml",
+    "tamasfe.even-better-toml",
     "yzhang.markdown-all-in-one",
-    "ms-azuretools.vscode-docker",
+    "bierner.markdown-mermaid",
+
+    "ms-azuretools.vscode-containers",
     "ms-kubernetes-tools.vscode-kubernetes-tools",
-    "ms-vscode-remote.remote-ssh",
-    "ms-vscode-remote.remote-wsl",
-    "ms-vscode-remote.remote-containers",
+    "tim-koehler.helm-intellisense",
+    "exiasr.hadolint",
+
     "hashicorp.terraform",
     "redhat.ansible",
-    "ms-vscode-remote.remote-ssh-edit",
-    "eamodio.tsl-proxy",
-    "gruntfuggly.todo-tree"
+    "ms-azuretools.vscode-bicep",
+
+    "github.vscode-github-actions",
+    "ms-azure-devops.azure-pipelines",
+
+    "ms-azuretools.vscode-azureresourcegroups",
+    "ms-vscode.azurecli",
+    "googlecloudtools.cloudcode",
+
+    "timonwong.shellcheck",
+    "foxundermoon.shell-format",
+    "ms-vscode.powershell",
+    "ms-vscode.makefile-tools",
+
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode-remote.remote-containers"
   ]
 }
